@@ -84,6 +84,14 @@ px4_add_romfs_files(
 	4010_gz_x500_mono_cam
 	4011_gz_lawnmower
 
+	5001_xplane_cessna172
+	5010_xplane_ehang184
+	5020_xplane_alia250
+	5030_xplane_lego
+	5040_xplane_vertix
+	5050_xplane_vilverin
+	5060_xplane_mx
+
 	6011_gazebo-classic_typhoon_h480
 	6011_gazebo-classic_typhoon_h480.post
 
