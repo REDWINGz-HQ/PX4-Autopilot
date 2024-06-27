@@ -11,6 +11,7 @@
     <plugin name='gz::sim::systems::Contact' filename='gz-sim-contact-system'/>
     <plugin name='gz::sim::systems::Imu' filename='gz-sim-imu-system'/>
     <plugin name='gz::sim::systems::AirPressure' filename='gz-sim-air-pressure-system'/>
+    <plugin name='gz::sim::systems::ApplyLinkWrench' filename='gz-sim-apply-link-wrench-system'/>
     <plugin name='gz::sim::systems::Sensors' filename='gz-sim-sensors-system'>
       <render_engine>ogre2</render_engine>
     </plugin>
@@ -25,7 +26,7 @@
         <scene>scene</scene>
         <ambient_light>0.5984631152222222 0.5984631152222222 0.5984631152222222</ambient_light>
         <background_color>0.8984631152222222 0.8984631152222222 0.8984631152222222</background_color>
-        <camera_pose>-6 0 6 0 0.5 0</camera_pose>
+        <camera_pose>278.08 -138.22 10 0.02 1 -0.65</camera_pose>
       </plugin>
       <plugin name='World control' filename='WorldControl'>
         <gz-gui>
@@ -143,5 +144,27 @@
         <falloff>0</falloff>
       </spot>
     </light>
+    <include>
+      <uri>model://sonoma_raceway</uri>
+    </include>
+    <include>
+      <pose>285.24 -146.97 2.57 0.02 0 -0.65</pose>
+      <uri>model://hatchback_blue</uri>
+      <name>hatchback_blue_1</name>
+    </include>
+    <include>
+      <pose>273.43 -137.65 2.86 0.02 0 -0.65</pose>
+      <uri>model://pickup</uri>
+      <name>pickup_1</name>
+    </include>
+    <include>
+      <pose>295.96 -146.5 2.48 -0.019 -0.008 2.46</pose>
+      <uri>model://pickup</uri>
+      <name>pickup_2</name>
+    </include>
+    <include>
+      <pose>280.64 -137.32 2.77 -0.019 -0.008 2.46</pose>
+      <uri>model://casual_female</uri>
+    </include>
   </world>
 </sdf>

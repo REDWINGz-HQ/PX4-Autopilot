@@ -6,7 +6,8 @@
     </include>
     <include merge='true'>
       <uri>https://fuel.gazebosim.org/1.0/RudisLaboratories/models/OakD-Lite</uri>
-      <pose>.12 .03 .242 0 0 0</pose>
+      <!-- <pose>.12 .03 .242 0 0 0</pose> -->
+      <pose>.15 .029 .21 0 0.7854 0</pose>
     </include>
     <joint name="CameraJoint" type="fixed">
       <parent>base_link</parent>
